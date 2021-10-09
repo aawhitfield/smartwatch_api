@@ -1,5 +1,23 @@
 library smartwatch_api;
 
+import 'convert_to_hex.dart';
+import 'package:smartwatch_api/blood_oxygen_reading.dart';
+import 'blood_pressure_measurement.dart';
+import 'hrv_reading.dart';
+import 'body_temperature_reading.dart';
+import 'convert_returned_watch_temp_to_value.dart';
+import 'heart_rate_reading.dart';
+import 'package:smartwatch_api/sleep_reading.dart';
+import 'package:smartwatch_api/steps_reading.dart';
+import 'convert_returned_watch_steps_to_value.dart';
+
+part 'convert_raw_to_blood_oxygen_reading.dart';
+part 'convert_raw_to_blood_pressure_reading.dart';
+part 'convert_raw_to_body_temperature_reading.dart';
+part 'convert_raw_to_heart_rate_reading.dart';
+part 'convert_raw_to_sleep_reading.dart';
+part 'convert_raw_to_steps_reading.dart';
+
 enum Watch {
   v1,
   v2
