@@ -2,7 +2,7 @@
 //
 //     final bloodPressureMeasurement = bloodPressureMeasurementFromMap(jsonString);
 
-import 'dart:convert';
+part of 'smartwatch_api.dart';
 
 class SleepReading {
   SleepReading({

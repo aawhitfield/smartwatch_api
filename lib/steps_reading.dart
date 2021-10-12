@@ -1,5 +1,5 @@
 // store information and data relating to a single steps reading
-
+part of 'smartwatch_api.dart';
 
 class StepsReading {
   final DateTime date;

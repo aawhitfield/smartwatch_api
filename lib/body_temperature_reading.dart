@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of 'smartwatch_api.dart';
 
 // store information and data relating to a single heart rate reading
 
