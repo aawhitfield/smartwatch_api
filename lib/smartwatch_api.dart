@@ -23,7 +23,8 @@ part 'package:smartwatch_api/steps_reading.dart';
 
 enum Watch {
   v1,
-  v2
+  v2,
+  v3,
 }
 
 enum ClockType {
@@ -35,6 +36,7 @@ class SmartWatchAPI {
 
   static const String smartWatchNameV1 = '1963YH';
   static const String smartWatchNameV2 = '2025';
+  static const String smartWatchNameV3 = '2025E';
 
   static const List<int> heartRateHistoryData = [0x55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, (0x55 + 0) & 0xff];
   static const List<int> eraseHeartRateHistoryData = [0x55, 0x99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, (0x55 + 0x99) & 0xff];
